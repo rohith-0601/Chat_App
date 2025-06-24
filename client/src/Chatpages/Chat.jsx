@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import io from "socket.io-client";
-const socket = io("http://localhost:5001");
+const socket = io("https://chat-app-jscd.onrender.com");
 
 function Chatpage() {
   const { state } = useLocation();
